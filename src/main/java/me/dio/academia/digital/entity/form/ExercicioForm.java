@@ -7,11 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AvaliacaoFisicaForm {
+public class ExercicioForm {
 
-  private Long alunoId;
+  private Long grupoId;
 
-  private double peso;
-
-  private double altura;
+  private String descricao;
 }

@@ -7,10 +7,6 @@ import org.springframework.stereotype.Repository;
 import java.time.LocalDate;
 import java.util.List;
 
-//@Repository
-//public interface AlunoRepository extends JpaRepository<Aluno, Long> {
-//}
-
 @Repository
 public interface AlunoRepository extends JpaRepository<Aluno, Long> {
 
